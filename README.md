@@ -13,8 +13,10 @@ A personal collection of **Python practice programs**, topic-wise examples, and 
 - **Mini scripts**:
 	- `number_guesser.py` — interactive number guessing (binary-search style)
 	- `reaminder.py` — desktop notification reminder (uses `plyer`)
-- **Notebook**:
+- **Notebooks** (in `12_numpy_pandas/`):
 	- `numpy.ipynb` — NumPy basics (arrays, reshape, slicing, 2D indexing)
+	- `numpy_adv.ipynb` — Advanced NumPy operations
+	- `pandas.ipynb` — Pandas data manipulation and analysis
 
 ## Folder map
 
@@ -29,6 +31,7 @@ The repo is organized by topic:
 - `9_oops/` — OOP examples (class, constructors, inheritance, operator overloading)
 - `10_py_adv_concepts/` — decorators, dunder, args/kwargs, map/filter/reduce, error handling
 - `11_files/` — file handling examples + practice files
+- `12_numpy_pandas/` — NumPy and Pandas notebooks with data analysis examples
 - `sql/` — small Python + SQL-related experiments
 
 Top-level scripts you may want to try:
@@ -47,15 +50,16 @@ Top-level scripts you may want to try:
 
 Not all scripts need external packages.
 
-- `numpy.ipynb` requires:
+- Notebooks in `12_numpy_pandas/` require:
 	- `numpy`
+	- `pandas`
 - `reaminder.py` requires:
 	- `plyer`
 
 If you don't have them installed, install with:
 
 ```powershell
-python -m pip install numpy plyer
+python -m pip install numpy pandas plyer
 ```
 
 ## How to run
@@ -76,9 +80,13 @@ python .\reaminder.py
 
 > Note: This script sends a desktop notification every hour in an infinite loop. Stop it with **Ctrl + C**.
 
-### Open the NumPy notebook
+### Open the notebooks
 
-Open `numpy.ipynb` in **VS Code** (Jupyter extension) and run cells.
+Open any notebook in `12_numpy_pandas/` in **VS Code** (with Jupyter extension) and run cells:
+
+- `numpy.ipynb` — NumPy basics
+- `numpy_adv.ipynb` — Advanced NumPy
+- `pandas.ipynb` — Pandas data analysis
 
 ## Notes / conventions
 
@@ -95,7 +103,7 @@ Open `numpy.ipynb` in **VS Code** (Jupyter extension) and run cells.
 5. `9_oops/`
 6. `10_py_adv_concepts/`
 7. `11_files/`
-8. `numpy.ipynb`
+8. `12_numpy_pandas/` (notebooks: NumPy basics → NumPy advanced → Pandas)
 
 ## License
 
