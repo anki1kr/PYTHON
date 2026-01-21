@@ -1,6 +1,6 @@
-Employee_ID,Employee_Name,Age,Country,Department,Position,Salary,Joining_Date,new_column,div-Salary
-1.0,DanielTaylor,25.0,UK,HR,Analyst,0.0,04-06-2023,5000,0.0
-2.0,EthanBrown,44.0,India,Marketing,Executive,98549.2,13-01-2018,5000,19.0
-3.0,SophiaMartinez,inf,Japan,Finance,Developer,85565.84,30-04-2015,5000,17.0
-4.0,EthanMartinez,47.0,Germany,Support,Analyst,34513.67,17-06-2015,5000,6.0
-5.0,MiaBrown,32.0,Australia,Support,Consultant,45339.72,22-02-2019,5000,9.0
+Name,Age,Salary,Department,Experience,new_column,bonus,div-Salary
+Amit,31.0,-5699.0,Finance,0.0,5000,-11398.0,-2.0
+Arjun,0.0,10000000.0,Finance,0.0,5000,20000000.0,2000.0
+Neha,0.0,10000000.0,HR,3.0,5000,20000000.0,2000.0
+John,200.0,10000000.0,HR,14.0,5000,20000000.0,2000.0
+Priya,37.0,0.0,HR,0.0,5000,0.0,0.0
